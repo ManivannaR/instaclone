@@ -1,0 +1,130 @@
+#landing-image{
+  width: 700px;
+  height: 685px;
+  margin: 10px;
+}
+
+.landing-right{
+  width: 780px;
+  float: right;
+  text-align: center;
+  padding-top: 250px;
+}
+
+.main-div{
+  width: 800px;
+  margin: auto;
+  border: 2px solid black;
+}
+
+#icon-logo{
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.instaclone-heading{
+  display: inline;
+  padding-left: 20px;
+}
+
+#icon-camera{
+  margin-top: 10px;
+  float: right;
+  margin-right: 20px;
+}
+
+.post{
+  width: 501px;
+  margin-left: 150px;
+  margin-top: 30px;
+  padding: 0px;
+  border: 2px solid black;
+}
+
+.post-name{
+  margin-left: 20px;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.post-location{
+  margin-top: -15px;
+  margin-left: 20px;
+  font-size: 15px;
+}
+
+.more-icon{
+  margin-top: 30px;
+  float: right;
+  margin-right: 40px;
+}
+
+.post-image{
+  width: 500px;
+}
+
+.heart-icon{
+  margin-top: 10px;
+  margin-left: 20px;
+  width: 30px;
+}
+
+.send-icon{
+  margin-top: 10px;
+  margin-left: 15px;
+  width: 30px;
+}
+
+.post-date{
+  float: right;
+  font-size: 15px;
+  margin-right: 40px;
+}
+
+.post-likes{
+  margin-top: 15px;
+  margin-left: 25px;
+  font-size: 15px;
+}
+
+.post-description{
+  margin-top: -15px;
+  margin-left: 25px;
+  font-size: 15px;
+}
+
+.form-container{
+  margin: 20px auto;
+  width: 500px;
+  height: 300px;
+  border: 2px solid black;
+}
+
+.file-input{
+  margin-top: 5px;
+  margin-left: 160px;
+  display: block;
+}
+
+.author-input{
+  margin: 15px 8px;
+  display: inline-block;
+  width: 45%;
+}
+
+.location-input{
+  margin: 15px 8px;
+  display: inline-block;
+  width: 45%;
+}
+
+.description-input{
+  margin-left: 7px;
+  display: inline-block;
+  width: 95%;
+  height: 180px;
+}
+
+.post-button{
+  margin-top: 10px;
+  margin-left: 210px;
+}
