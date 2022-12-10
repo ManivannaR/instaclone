@@ -1,39 +1,67 @@
-#landing-image{
-  width: 700px;
-  height: 685px;
-  margin: 10px;
-}
-
-.landing-right{
-  width: 780px;
-  float: right;
+.landing-div {
+  width: 100%;
+  height: 100%;
   text-align: center;
   padding-top: 250px;
 }
 
-.main-div{
+#landing-title {
+  font-size: 50px;
+}
+
+#landing-enter-btn {
+  width: 150px;
+  height: 40px;
+  font-size: 20px;
+}
+
+#landing-enter-btn:hover {
+  cursor: pointer;
+  background-color: rgb(187, 51, 51);
+  color: white;
+}
+
+.main-div {
   width: 800px;
   margin: auto;
   border: 2px solid black;
 }
 
-#icon-logo{
+.logo-holder,
+.camera-icon-holder,
+.heading-holder {
+  display: inline-block;
+}
+
+.logo-holder {
   margin-top: 10px;
+  float: left;
+}
+
+.heading-holder {
   margin-left: 20px;
-}
-
-.instaclone-heading{
-  display: inline;
-  padding-left: 20px;
-}
-
-#icon-camera{
   margin-top: 10px;
-  float: right;
-  margin-right: 20px;
 }
 
-.post{
+.camera-icon-holder {
+  float: right;
+  margin-top: 25px;
+  margin-right: 50px;
+}
+
+.camera-icon-holder:hover {
+  cursor: pointer;
+}
+
+#icon-logo {
+  margin-top: 10px;
+  margin-left: 40px;
+  height: 70px;
+  width: 80px;
+  float: left;
+}
+
+.post {
   width: 501px;
   margin-left: 150px;
   margin-top: 30px;
@@ -41,90 +69,90 @@
   border: 2px solid black;
 }
 
-.post-name{
+.post-name {
   margin-left: 20px;
   font-size: 20px;
   font-weight: bolder;
 }
-.post-location{
+.post-location {
   margin-top: -15px;
   margin-left: 20px;
   font-size: 15px;
 }
 
-.more-icon{
+.more-icon {
   margin-top: 30px;
   float: right;
   margin-right: 40px;
 }
 
-.post-image{
+.post-image {
   width: 500px;
 }
 
-.heart-icon{
+.heart-icon {
   margin-top: 10px;
   margin-left: 20px;
   width: 30px;
 }
 
-.send-icon{
+.send-icon {
   margin-top: 10px;
   margin-left: 15px;
   width: 30px;
 }
 
-.post-date{
+.post-date {
   float: right;
   font-size: 15px;
   margin-right: 40px;
 }
 
-.post-likes{
+.post-likes {
   margin-top: 15px;
   margin-left: 25px;
   font-size: 15px;
 }
 
-.post-description{
+.post-description {
   margin-top: -15px;
   margin-left: 25px;
   font-size: 15px;
 }
 
-.form-container{
+.form-container {
   margin: 20px auto;
   width: 500px;
   height: 300px;
   border: 2px solid black;
 }
 
-.file-input{
+.file-input {
   margin-top: 5px;
   margin-left: 160px;
   display: block;
 }
 
-.author-input{
+.author-input {
   margin: 15px 8px;
   display: inline-block;
   width: 45%;
 }
 
-.location-input{
+.location-input {
   margin: 15px 8px;
   display: inline-block;
   width: 45%;
 }
 
-.description-input{
+.description-input {
   margin-left: 7px;
   display: inline-block;
   width: 95%;
   height: 180px;
 }
 
-.post-button{
+.post-button {
   margin-top: 10px;
   margin-left: 210px;
 }

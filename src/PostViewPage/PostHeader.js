@@ -10,22 +10,22 @@ function PostHeader() {
 
   return (
     <>
-      <img
-        id="icon-logo"
-        src="/images/instaclone-logo.png"
-        alt="logo-icon"
-        height="70px"
-        width="100px"
-      />
-      <h1 className="instaclone-heading">INSTACLONE</h1>
-      <img
-        id="icon-camera"
-        src="/images/icon-camera.png"
-        alt="options-icon"
-        height="60px"
-        width="50px"
-        onClick={routeChange}
-      />
+      <div className="logo-holder">
+        <img id="icon-logo" src="/images/instaclone-logo.png" alt="logo-icon" />
+      </div>
+      <div className="heading-holder">
+        <h1 id="instaclone-heading">INSTACLONE</h1>
+      </div>
+      <div className="camera-icon-holder">
+        <img
+          id="icon-camera"
+          src="/images/icon-camera.png"
+          alt="options-icon"
+          height="60px"
+          width="50px"
+          onClick={routeChange}
+        />
+      </div>
     </>
   );
 }

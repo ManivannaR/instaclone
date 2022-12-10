@@ -5,7 +5,7 @@ import Post from "./Post";
 function Postviewpage({ users }) {
   return (
     <div className="main-div">
-      <PostHeader></PostHeader>
+      <PostHeader />
       <div className="post-container">
         {users
           .slice(0)
